@@ -11,7 +11,7 @@ fn main() {
     )
 }
 
-fn get_primes<'a>(nums: usize) -> Vec<String> {
+fn get_primes(nums: usize) -> Vec<String> {
 
     let mut board = vec![true; nums];
     let mut primes = Vec::new();
